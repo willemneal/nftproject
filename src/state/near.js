@@ -119,18 +119,11 @@ export const initNear =
 
         await update('', { app });
 
-        // Debugging start
-        console.log('tokens_left:', tokensLeft);
-        console.log('nft_total_supply', nftTotalSupply);
-        console.log('state:', getState());
-        // Debugging end
-
         return;
       }
 
       await update('', { near, wallet, account, price });
-      console.log('state:', getState());
     } catch (e) {
-      console.log('error:', e);
+      
     }
   };

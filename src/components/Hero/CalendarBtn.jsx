@@ -12,7 +12,7 @@ const CalendarBtn = ({ className }) => {
       className={`calendar-btn  ${className}`}
       onClick={() => history.push('/#generate')}
     >
-      Mint your first!
+      Mint
     </button>
   );
 };

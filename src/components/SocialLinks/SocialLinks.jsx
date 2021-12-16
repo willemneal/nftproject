@@ -7,28 +7,14 @@ import socialTwitter from '../../assets/images/social-twitter.svg';
 const SocialLinks = ({ className }) => (
   <div className={`social-links ${className || ''}`}>
     <a
-      href="https://paras.id/search?q=misfits.tenk.near&sort=priceasc&pmin=.01&is_verified=true"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
-      <picture>
-        <source srcSet="./images/social-paras-2x.webp 2x, ./images/social-paras.webp 1x" />
-        <img
-          className="social-links__item"
-          src="./images/social-paras.png"
-          alt="paras"
-        />
-      </picture>
-    </a>
-    <a
-      href="https://discord.com/invite/UY9Xf2k"
+      href="https://discord.gg/mS4MUy6WM4"
       target="_blank"
       rel="noopener noreferrer"
     >
       <ReactSVG className="social-links__item" src={socialFace} />
     </a>
     <a
-      href="https://twitter.com/NEARProtocol"
+      href="https://twitter.com/Near_Tiger"
       rel="noopener noreferrer"
       target="_blank"
     >

@@ -2,8 +2,8 @@ import React, { useContext, memo } from 'react';
 import { ReactSVG } from 'react-svg';
 import { appStore } from '../../state/app';
 import Navigation from '../../components/Navigation';
-import SocialLinks from '../../components/SocialLinks';
 import logo from '../../assets/images/footer-near-logo.svg';
+import SocialLinks from '../../components/SocialLinks/SocialLinks.jsx';
 
 const Footer = () => {
   const { state } = useContext(appStore);

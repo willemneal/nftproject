@@ -48,7 +48,7 @@ const useLinkDrop = () => {
         callbackUrl: `${currentUrl}/link-drop`,
       });
     } catch (err) {
-      console.log(err);
+      
     }
   };
   return { createLinkDrop };

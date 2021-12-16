@@ -15,7 +15,6 @@ const useTransfer = () => {
 
   const nftTransfer = async (tokenId, receiver_id) => {
     const token_id = tokenId.toString();
-    console.log('transfer');
 
     await contract.nft_transfer({
       args: { receiver_id, token_id },
