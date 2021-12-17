@@ -47,9 +47,7 @@ const useLinkDrop = () => {
         amount: cost,
         callbackUrl: `${currentUrl}/link-drop`,
       });
-    } catch (err) {
-      
-    }
+    } catch (err) {}
   };
   return { createLinkDrop };
 };

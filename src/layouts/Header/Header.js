@@ -15,7 +15,7 @@ const Header = () => {
 
   return (
     <header className="header">
-      {/*<Navigation className="header__navigation" signedIn={wallet.signedIn} />*/}
+      {/* <Navigation className="header__navigation" signedIn={wallet.signedIn} /> */}
       <SocialLinks className="header__social" />
 
       {account?.accountId ? (
